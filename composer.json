@@ -1,0 +1,26 @@
+{
+    "name": "kike/puntp",
+    "description": "punto",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ITEC\\DAW\\EPL\\Poligono\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ITEC\\DAW\\EPL\\Poligonos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enrique Pavón",
+            "email": "91148468+eplq@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6",
+        "phpunit/phpunit": "^9.5"
+    }
+}
